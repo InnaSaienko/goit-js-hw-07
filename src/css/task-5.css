@@ -1,0 +1,17 @@
+.widget {
+    margin: 60px auto;
+    padding: 100px 88px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    & p {
+        margin-bottom: 16px;
+    }
+    & .change-color {
+        border-radius: 8px;
+        padding: 8px 16px;
+        width: 148px;
+        height: 40px;
+        background: #4e75ff;
+    }
+}
