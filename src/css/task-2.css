@@ -1,0 +1,28 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+    margin: 60px auto;
+    max-width: 360px;
+
+    & li {
+        & img {
+
+        }
+    }
+}
+@media (min-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+        row-gap: 48px;
+        max-width: 704px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1128px;
+    }
+}

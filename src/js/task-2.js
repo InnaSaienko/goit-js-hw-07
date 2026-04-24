@@ -35,6 +35,9 @@ const createGalleryItems = () =>
         const li = document.createElement('li');
         const img = document.createElement('img');
 
+        li.classList.add('gallery-item');
+        img.classList.add('gallery-image');
+
         img.src = url;
         img.alt = alt;
 
